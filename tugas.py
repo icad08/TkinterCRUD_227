@@ -52,6 +52,7 @@ def submit_data():
     entry_fisika.delete(0, tk.END)
     entry_inggris.delete(0, tk.END)
 
+# create function to fetch data from the database
 def fetch_data():
     con = sqlite3.connect('nilai_siswa.db')
     cursor = con.cursor()
